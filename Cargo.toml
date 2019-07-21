@@ -1,0 +1,21 @@
+[package]
+name = "image-energy"
+version = "0.1.0"
+authors = ["Miren <mirenbhakta21@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "energy"
+path = "src/lib.rs"
+
+[[bin]]
+name = "image-energy"
+path = "src/main.rs"
+
+[dependencies]
+image = "0.21.2"
+failure = "0.1.5"
+exitfailure = "0.5.1"
+rayon = "1.1.0"
+lab = "0.7.1"
+walkdir = "2.2.9"
