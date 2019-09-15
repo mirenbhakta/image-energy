@@ -43,3 +43,23 @@ convert component lab to rgb - "y" or "n"
 * if component mode and lab color space are used, this will give you the option to properly convert the component lab values back to rgb I found the outputs interesting for both so I decided to have this option
 
 * default is n
+
+# Examples
+
+Source image
+![](/readme-images/planet_fhd.jpg?raw=true "Source image.")
+
+Default arguments
+![](/readme-images/planet_fhd_energy.jpg?raw=true "Default arguments.")
+
+Exponent of 4 instead of 3
+![](/readme-images/planet_fhd_energy_exp4.jpg?raw=true "Exponent of 4 instead of 3.")
+
+Component mode instead of Combined mode
+![](/readme-images/planet_fhd_energy_component.jpg?raw=true "Component mode instead of Combined mode")
+
+Component mode in sRGB color space instead of CIELAB
+![](/readme-images/planet_fhd_energy_component_rgb.jpg?raw=true "Component mode in sRGB color space instead of CIELAB")
+
+Component mode CIELAB with output turned back into rgb
+![](/readme-images/planet_fhd_energy_component_lab_y.jpg?raw=true "Component mode CIELAB with output turned back into rgb")
