@@ -115,8 +115,8 @@ fn parse_component_convert_lab_to_rgb(args: Option<String>) -> bool {
     match args {
         Some(v) => {
             match &v[..] {
-                "yes" => true,
-                //"no" => false,
+                "y" => true,
+                //"n" => false,
                 _ => DEFAULT,
             }
         },
